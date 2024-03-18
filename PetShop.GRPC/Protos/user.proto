@@ -4,47 +4,49 @@ option csharp_namespace= "PetShop.GRPC";
 
 package user;
 
-message GetAllProductsRequest{
-    string name = 1; 
-    int32 price = 2;
-    string categoryId = 3;
+message GetAllUserRequest{
+    string username = 1;
+    string password = 2;
+    string email = 3;
     string status = 4;
+    string role = 5;
 }
 
-message GetAllProductsResponse {
-  repeated ProductResponse product = 1;
+message GetAllUserReponse {
+  repeated UserResponse user = 1;
 }
 
-message CreateProductRequest {
-    string name = 1; 
-    int32 price = 2;
-    string categoryId = 3;
+message CreateUserRequest {
+    string username = 1;
+    string password = 2;
+    string email = 3;
     string status = 4;
+    string role = 5;
 }
 
-message UpdateProductRequest {
+message UpdateUserRequest {
+    string username = 1;
+    string password = 2;
+    string email = 3;
+    string status = 4;
+    string role = 5;
+}
+
+message DeleteUserRequest {
     string id = 1;
-    string name = 2; 
-    int32 price = 3;
-    string categoryId = 4;
-    string status = 5;
 }
 
-message DeleteProductRequest {
-    string id = 1;
+message UserResponse {
+    string username = 1;
+    string password = 2;
+    string email = 3;
+    string status = 4;
+    string role = 5;
 }
 
-message ProductResponse {
-    string id = 1;
-    string name = 2; 
-    int32 price = 3;
-    string categoryId = 4;
-    string status = 5;
-}
-
-service ProductServices {
-    rpc GetAllProducts(GetAllProductsRequest) returns (GetAllProductsResponse) {}
-    rpc CreateProduct(CreateProductRequest) returns (ProductResponse) {}
-    rpc UpdateProduct(UpdateProductRequest) returns (ProductResponse) {}
-    rpc DeleteProduct(DeleteProductRequest) returns (ProductResponse) {}
+service UserServices {
+    rpc GetAllUsers(GetAllUserRequest) returns (GetAllUserReponse) {}
+    rpc CreateUser(CreateUserRequest) returns (UserResponse) {}
+    rpc UpdateUser(UpdateUserRequest) returns (UserResponse) {}
+    rpc DeleteUser(DeleteUserRequest) returns (UserResponse) {}
 }
