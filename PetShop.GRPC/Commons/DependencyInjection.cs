@@ -15,6 +15,7 @@ namespace PetShop.GRPC.Commons
             });
             //Inject Repository
             services.AddScoped<ICategoryRepository, CategoryRepository>();
+            services.AddScoped<IProductRepository, ProductRepository>();    
         }
     }
 }
