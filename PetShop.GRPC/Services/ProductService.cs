@@ -1,6 +1,7 @@
 ﻿using Grpc.Core;
 using Microsoft.EntityFrameworkCore;
 using PetShop.BusinessObject.Models;
+using PetShop.Repositories.Implements;
 using PetShop.Repositories.Interfaces;
 using PetShop.Services.Enums;
 
@@ -47,9 +48,60 @@ namespace PetShop.GRPC.Services
             var products = _productRepository.Get().Where(x => x.Status == ProductStatus.Available.ToString()).ToList();
             foreach (var product in products)
             {
-                
+                response.Product.Add(new ProductResponse 
+                {
+                    Id = product.Id.ToString(),
+                    Name = product.Name,
+                    Price= (int)product.Price,
+                    Status = product.Status,
+                });
             }
             return Task.FromResult(response);
+        }
+
+        public override Task<ProductResponse> UpdateProduct(UpdateProductRequest request, ServerCallContext context)
+        {
+            if(request == null)
+            {
+                throw new RpcException(new Status(StatusCode.InvalidArgument, "Error request"));
+            }
+            Guid? categoryId = null;
+            if (!string.IsNullOrEmpty(request.CategoryId) && Guid.TryParse(request.CategoryId, out Guid parsedId))
+            {
+                categoryId = parsedId;
+            }
+            var product = _productRepository.Get(request.Id);
+            if (product == null)
+            {
+                throw new RpcException(new Status(StatusCode.InvalidArgument, "Cannot find this product or product does not exist"));
+            } 
+            else
+            {
+                product.Name = request.Name;
+                product.Price = request.Price;
+                product.Status = request.Status;
+                product.CategoryId = categoryId;
+            }
+            _productRepository.Update(product);
+            return Task.FromResult(new ProductResponse
+            {
+                Id = product.Id.ToString()
+            });
+        }
+
+        public override Task<ProductResponse> DeleteProduct(DeleteProductRequest request, ServerCallContext context)
+        {
+            if(request == null)
+            {
+                throw new RpcException(new Status(StatusCode.InvalidArgument, "Error request"));
+            }
+            var product = _productRepository.Get(request.Id);
+            if(product == null)
+            {
+                throw new RpcException(new Status(StatusCode.InvalidArgument, "Cannot find this product or product does not exist"));
+            }
+            _productRepository.Delete(product);
+            return base.DeleteProduct(request, context);
         }
     }
 }

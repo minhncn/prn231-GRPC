@@ -26,29 +26,29 @@ namespace PetShop.GRPC {
           string.Concat(
             "ChRQcm90b3MvcHJvZHVjdC5wcm90bxIHcHJvZHVjdCJYChVHZXRBbGxQcm9k",
             "dWN0c1JlcXVlc3QSDAoEbmFtZRgBIAEoCRINCgVwcmljZRgCIAEoBRISCgpj",
-            "YXRlZ29yeUlkGAMgASgJEg4KBnN0YXR1cxgEIAEoCSJEChZHZXRBbGxQcm9k",
-            "dWN0c1Jlc3BvbnNlEioKCGNhdGVnb3J5GAEgAygLMhgucHJvZHVjdC5Qcm9k",
-            "dWN0UmVzcG9uc2UiVwoUQ3JlYXRlUHJvZHVjdFJlcXVlc3QSDAoEbmFtZRgB",
-            "IAEoCRINCgVwcmljZRgCIAEoBRISCgpjYXRlZ29yeUlkGAMgASgJEg4KBnN0",
-            "YXR1cxgEIAEoCSJjChRVcGRhdGVQcm9kdWN0UmVxdWVzdBIKCgJpZBgBIAEo",
-            "CRIMCgRuYW1lGAIgASgJEg0KBXByaWNlGAMgASgFEhIKCmNhdGVnb3J5SWQY",
-            "BCABKAkSDgoGc3RhdHVzGAUgASgJIiIKFERlbGV0ZVByb2R1Y3RSZXF1ZXN0",
-            "EgoKAmlkGAEgASgJIl4KD1Byb2R1Y3RSZXNwb25zZRIKCgJpZBgBIAEoCRIM",
-            "CgRuYW1lGAIgASgJEg0KBXByaWNlGAMgASgFEhIKCmNhdGVnb3J5SWQYBCAB",
-            "KAkSDgoGc3RhdHVzGAUgASgJMsoCCg9Qcm9kdWN0U2VydmljZXMSUwoOR2V0",
-            "QWxsUHJvZHVjdHMSHi5wcm9kdWN0LkdldEFsbFByb2R1Y3RzUmVxdWVzdBof",
-            "LnByb2R1Y3QuR2V0QWxsUHJvZHVjdHNSZXNwb25zZSIAEkoKDUNyZWF0ZVBy",
-            "b2R1Y3QSHS5wcm9kdWN0LkNyZWF0ZVByb2R1Y3RSZXF1ZXN0GhgucHJvZHVj",
-            "dC5Qcm9kdWN0UmVzcG9uc2UiABJKCg1VcGRhdGVQcm9kdWN0Eh0ucHJvZHVj",
-            "dC5VcGRhdGVQcm9kdWN0UmVxdWVzdBoYLnByb2R1Y3QuUHJvZHVjdFJlc3Bv",
-            "bnNlIgASSgoNRGVsZXRlUHJvZHVjdBIdLnByb2R1Y3QuRGVsZXRlUHJvZHVj",
-            "dFJlcXVlc3QaGC5wcm9kdWN0LlByb2R1Y3RSZXNwb25zZSIAQg+qAgxQZXRT",
-            "aG9wLkdSUENiBnByb3RvMw=="));
+            "YXRlZ29yeUlkGAMgASgJEg4KBnN0YXR1cxgEIAEoCSJDChZHZXRBbGxQcm9k",
+            "dWN0c1Jlc3BvbnNlEikKB3Byb2R1Y3QYASADKAsyGC5wcm9kdWN0LlByb2R1",
+            "Y3RSZXNwb25zZSJXChRDcmVhdGVQcm9kdWN0UmVxdWVzdBIMCgRuYW1lGAEg",
+            "ASgJEg0KBXByaWNlGAIgASgFEhIKCmNhdGVnb3J5SWQYAyABKAkSDgoGc3Rh",
+            "dHVzGAQgASgJImMKFFVwZGF0ZVByb2R1Y3RSZXF1ZXN0EgoKAmlkGAEgASgJ",
+            "EgwKBG5hbWUYAiABKAkSDQoFcHJpY2UYAyABKAUSEgoKY2F0ZWdvcnlJZBgE",
+            "IAEoCRIOCgZzdGF0dXMYBSABKAkiIgoURGVsZXRlUHJvZHVjdFJlcXVlc3QS",
+            "CgoCaWQYASABKAkiXgoPUHJvZHVjdFJlc3BvbnNlEgoKAmlkGAEgASgJEgwK",
+            "BG5hbWUYAiABKAkSDQoFcHJpY2UYAyABKAUSEgoKY2F0ZWdvcnlJZBgEIAEo",
+            "CRIOCgZzdGF0dXMYBSABKAkyygIKD1Byb2R1Y3RTZXJ2aWNlcxJTCg5HZXRB",
+            "bGxQcm9kdWN0cxIeLnByb2R1Y3QuR2V0QWxsUHJvZHVjdHNSZXF1ZXN0Gh8u",
+            "cHJvZHVjdC5HZXRBbGxQcm9kdWN0c1Jlc3BvbnNlIgASSgoNQ3JlYXRlUHJv",
+            "ZHVjdBIdLnByb2R1Y3QuQ3JlYXRlUHJvZHVjdFJlcXVlc3QaGC5wcm9kdWN0",
+            "LlByb2R1Y3RSZXNwb25zZSIAEkoKDVVwZGF0ZVByb2R1Y3QSHS5wcm9kdWN0",
+            "LlVwZGF0ZVByb2R1Y3RSZXF1ZXN0GhgucHJvZHVjdC5Qcm9kdWN0UmVzcG9u",
+            "c2UiABJKCg1EZWxldGVQcm9kdWN0Eh0ucHJvZHVjdC5EZWxldGVQcm9kdWN0",
+            "UmVxdWVzdBoYLnByb2R1Y3QuUHJvZHVjdFJlc3BvbnNlIgBCD6oCDFBldFNo",
+            "b3AuR1JQQ2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::PetShop.GRPC.GetAllProductsRequest), global::PetShop.GRPC.GetAllProductsRequest.Parser, new[]{ "Name", "Price", "CategoryId", "Status" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::PetShop.GRPC.GetAllProductsResponse), global::PetShop.GRPC.GetAllProductsResponse.Parser, new[]{ "Category" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::PetShop.GRPC.GetAllProductsResponse), global::PetShop.GRPC.GetAllProductsResponse.Parser, new[]{ "Product" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::PetShop.GRPC.CreateProductRequest), global::PetShop.GRPC.CreateProductRequest.Parser, new[]{ "Name", "Price", "CategoryId", "Status" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::PetShop.GRPC.UpdateProductRequest), global::PetShop.GRPC.UpdateProductRequest.Parser, new[]{ "Id", "Name", "Price", "CategoryId", "Status" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::PetShop.GRPC.DeleteProductRequest), global::PetShop.GRPC.DeleteProductRequest.Parser, new[]{ "Id" }, null, null, null, null),
@@ -395,7 +395,7 @@ namespace PetShop.GRPC {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public GetAllProductsResponse(GetAllProductsResponse other) : this() {
-      category_ = other.category_.Clone();
+      product_ = other.product_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -405,15 +405,15 @@ namespace PetShop.GRPC {
       return new GetAllProductsResponse(this);
     }
 
-    /// <summary>Field number for the "category" field.</summary>
-    public const int CategoryFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::PetShop.GRPC.ProductResponse> _repeated_category_codec
+    /// <summary>Field number for the "product" field.</summary>
+    public const int ProductFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::PetShop.GRPC.ProductResponse> _repeated_product_codec
         = pb::FieldCodec.ForMessage(10, global::PetShop.GRPC.ProductResponse.Parser);
-    private readonly pbc::RepeatedField<global::PetShop.GRPC.ProductResponse> category_ = new pbc::RepeatedField<global::PetShop.GRPC.ProductResponse>();
+    private readonly pbc::RepeatedField<global::PetShop.GRPC.ProductResponse> product_ = new pbc::RepeatedField<global::PetShop.GRPC.ProductResponse>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::PetShop.GRPC.ProductResponse> Category {
-      get { return category_; }
+    public pbc::RepeatedField<global::PetShop.GRPC.ProductResponse> Product {
+      get { return product_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -431,7 +431,7 @@ namespace PetShop.GRPC {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if(!category_.Equals(other.category_)) return false;
+      if(!product_.Equals(other.product_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -439,7 +439,7 @@ namespace PetShop.GRPC {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      hash ^= category_.GetHashCode();
+      hash ^= product_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -458,7 +458,7 @@ namespace PetShop.GRPC {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      category_.WriteTo(output, _repeated_category_codec);
+      product_.WriteTo(output, _repeated_product_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -469,7 +469,7 @@ namespace PetShop.GRPC {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      category_.WriteTo(ref output, _repeated_category_codec);
+      product_.WriteTo(ref output, _repeated_product_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -480,7 +480,7 @@ namespace PetShop.GRPC {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      size += category_.CalculateSize(_repeated_category_codec);
+      size += product_.CalculateSize(_repeated_product_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -493,7 +493,7 @@ namespace PetShop.GRPC {
       if (other == null) {
         return;
       }
-      category_.Add(other.category_);
+      product_.Add(other.product_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -510,7 +510,7 @@ namespace PetShop.GRPC {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            category_.AddEntriesFrom(input, _repeated_category_codec);
+            product_.AddEntriesFrom(input, _repeated_product_codec);
             break;
           }
         }
@@ -529,7 +529,7 @@ namespace PetShop.GRPC {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            category_.AddEntriesFrom(ref input, _repeated_category_codec);
+            product_.AddEntriesFrom(ref input, _repeated_product_codec);
             break;
           }
         }
