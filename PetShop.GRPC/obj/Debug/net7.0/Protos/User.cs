@@ -30,27 +30,28 @@ namespace PetShop.GRPC {
             "bGxVc2VyUmVwb25zZRIgCgR1c2VyGAEgAygLMhIudXNlci5Vc2VyUmVzcG9u",
             "c2UiZAoRQ3JlYXRlVXNlclJlcXVlc3QSEAoIdXNlcm5hbWUYASABKAkSEAoI",
             "cGFzc3dvcmQYAiABKAkSDQoFZW1haWwYAyABKAkSDgoGc3RhdHVzGAQgASgJ",
-            "EgwKBHJvbGUYBSABKAkiZAoRVXBkYXRlVXNlclJlcXVlc3QSEAoIdXNlcm5h",
-            "bWUYASABKAkSEAoIcGFzc3dvcmQYAiABKAkSDQoFZW1haWwYAyABKAkSDgoG",
-            "c3RhdHVzGAQgASgJEgwKBHJvbGUYBSABKAkiHwoRRGVsZXRlVXNlclJlcXVl",
-            "c3QSCgoCaWQYASABKAkiXwoMVXNlclJlc3BvbnNlEhAKCHVzZXJuYW1lGAEg",
-            "ASgJEhAKCHBhc3N3b3JkGAIgASgJEg0KBWVtYWlsGAMgASgJEg4KBnN0YXR1",
-            "cxgEIAEoCRIMCgRyb2xlGAUgASgJMogCCgxVc2VyU2VydmljZXMSQQoLR2V0",
-            "QWxsVXNlcnMSFy51c2VyLkdldEFsbFVzZXJSZXF1ZXN0GhcudXNlci5HZXRB",
-            "bGxVc2VyUmVwb25zZSIAEjsKCkNyZWF0ZVVzZXISFy51c2VyLkNyZWF0ZVVz",
-            "ZXJSZXF1ZXN0GhIudXNlci5Vc2VyUmVzcG9uc2UiABI7CgpVcGRhdGVVc2Vy",
-            "EhcudXNlci5VcGRhdGVVc2VyUmVxdWVzdBoSLnVzZXIuVXNlclJlc3BvbnNl",
-            "IgASOwoKRGVsZXRlVXNlchIXLnVzZXIuRGVsZXRlVXNlclJlcXVlc3QaEi51",
-            "c2VyLlVzZXJSZXNwb25zZSIAQg+qAgxQZXRTaG9wLkdSUENiBnByb3RvMw=="));
+            "EgwKBHJvbGUYBSABKAkicAoRVXBkYXRlVXNlclJlcXVlc3QSCgoCaWQYASAB",
+            "KAkSEAoIdXNlcm5hbWUYAiABKAkSEAoIcGFzc3dvcmQYAyABKAkSDQoFZW1h",
+            "aWwYBCABKAkSDgoGc3RhdHVzGAUgASgJEgwKBHJvbGUYBiABKAkiHwoRRGVs",
+            "ZXRlVXNlclJlcXVlc3QSCgoCaWQYASABKAkiawoMVXNlclJlc3BvbnNlEgoK",
+            "AmlkGAEgASgJEhAKCHVzZXJuYW1lGAIgASgJEhAKCHBhc3N3b3JkGAMgASgJ",
+            "Eg0KBWVtYWlsGAQgASgJEg4KBnN0YXR1cxgFIAEoCRIMCgRyb2xlGAYgASgJ",
+            "MogCCgxVc2VyU2VydmljZXMSQQoLR2V0QWxsVXNlcnMSFy51c2VyLkdldEFs",
+            "bFVzZXJSZXF1ZXN0GhcudXNlci5HZXRBbGxVc2VyUmVwb25zZSIAEjsKCkNy",
+            "ZWF0ZVVzZXISFy51c2VyLkNyZWF0ZVVzZXJSZXF1ZXN0GhIudXNlci5Vc2Vy",
+            "UmVzcG9uc2UiABI7CgpVcGRhdGVVc2VyEhcudXNlci5VcGRhdGVVc2VyUmVx",
+            "dWVzdBoSLnVzZXIuVXNlclJlc3BvbnNlIgASOwoKRGVsZXRlVXNlchIXLnVz",
+            "ZXIuRGVsZXRlVXNlclJlcXVlc3QaEi51c2VyLlVzZXJSZXNwb25zZSIAQg+q",
+            "AgxQZXRTaG9wLkdSUENiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::PetShop.GRPC.GetAllUserRequest), global::PetShop.GRPC.GetAllUserRequest.Parser, new[]{ "Username", "Password", "Email", "Status", "Role" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::PetShop.GRPC.GetAllUserReponse), global::PetShop.GRPC.GetAllUserReponse.Parser, new[]{ "User" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::PetShop.GRPC.CreateUserRequest), global::PetShop.GRPC.CreateUserRequest.Parser, new[]{ "Username", "Password", "Email", "Status", "Role" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::PetShop.GRPC.UpdateUserRequest), global::PetShop.GRPC.UpdateUserRequest.Parser, new[]{ "Username", "Password", "Email", "Status", "Role" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::PetShop.GRPC.UpdateUserRequest), global::PetShop.GRPC.UpdateUserRequest.Parser, new[]{ "Id", "Username", "Password", "Email", "Status", "Role" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::PetShop.GRPC.DeleteUserRequest), global::PetShop.GRPC.DeleteUserRequest.Parser, new[]{ "Id" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::PetShop.GRPC.UserResponse), global::PetShop.GRPC.UserResponse.Parser, new[]{ "Username", "Password", "Email", "Status", "Role" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::PetShop.GRPC.UserResponse), global::PetShop.GRPC.UserResponse.Parser, new[]{ "Id", "Username", "Password", "Email", "Status", "Role" }, null, null, null, null)
           }));
     }
     #endregion
@@ -947,6 +948,7 @@ namespace PetShop.GRPC {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public UpdateUserRequest(UpdateUserRequest other) : this() {
+      id_ = other.id_;
       username_ = other.username_;
       password_ = other.password_;
       email_ = other.email_;
@@ -961,8 +963,20 @@ namespace PetShop.GRPC {
       return new UpdateUserRequest(this);
     }
 
+    /// <summary>Field number for the "id" field.</summary>
+    public const int IdFieldNumber = 1;
+    private string id_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Id {
+      get { return id_; }
+      set {
+        id_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     /// <summary>Field number for the "username" field.</summary>
-    public const int UsernameFieldNumber = 1;
+    public const int UsernameFieldNumber = 2;
     private string username_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -974,7 +988,7 @@ namespace PetShop.GRPC {
     }
 
     /// <summary>Field number for the "password" field.</summary>
-    public const int PasswordFieldNumber = 2;
+    public const int PasswordFieldNumber = 3;
     private string password_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -986,7 +1000,7 @@ namespace PetShop.GRPC {
     }
 
     /// <summary>Field number for the "email" field.</summary>
-    public const int EmailFieldNumber = 3;
+    public const int EmailFieldNumber = 4;
     private string email_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -998,7 +1012,7 @@ namespace PetShop.GRPC {
     }
 
     /// <summary>Field number for the "status" field.</summary>
-    public const int StatusFieldNumber = 4;
+    public const int StatusFieldNumber = 5;
     private string status_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1010,7 +1024,7 @@ namespace PetShop.GRPC {
     }
 
     /// <summary>Field number for the "role" field.</summary>
-    public const int RoleFieldNumber = 5;
+    public const int RoleFieldNumber = 6;
     private string role_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1036,6 +1050,7 @@ namespace PetShop.GRPC {
       if (ReferenceEquals(other, this)) {
         return true;
       }
+      if (Id != other.Id) return false;
       if (Username != other.Username) return false;
       if (Password != other.Password) return false;
       if (Email != other.Email) return false;
@@ -1048,6 +1063,7 @@ namespace PetShop.GRPC {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
+      if (Id.Length != 0) hash ^= Id.GetHashCode();
       if (Username.Length != 0) hash ^= Username.GetHashCode();
       if (Password.Length != 0) hash ^= Password.GetHashCode();
       if (Email.Length != 0) hash ^= Email.GetHashCode();
@@ -1071,24 +1087,28 @@ namespace PetShop.GRPC {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (Username.Length != 0) {
+      if (Id.Length != 0) {
         output.WriteRawTag(10);
+        output.WriteString(Id);
+      }
+      if (Username.Length != 0) {
+        output.WriteRawTag(18);
         output.WriteString(Username);
       }
       if (Password.Length != 0) {
-        output.WriteRawTag(18);
+        output.WriteRawTag(26);
         output.WriteString(Password);
       }
       if (Email.Length != 0) {
-        output.WriteRawTag(26);
+        output.WriteRawTag(34);
         output.WriteString(Email);
       }
       if (Status.Length != 0) {
-        output.WriteRawTag(34);
+        output.WriteRawTag(42);
         output.WriteString(Status);
       }
       if (Role.Length != 0) {
-        output.WriteRawTag(42);
+        output.WriteRawTag(50);
         output.WriteString(Role);
       }
       if (_unknownFields != null) {
@@ -1101,24 +1121,28 @@ namespace PetShop.GRPC {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Username.Length != 0) {
+      if (Id.Length != 0) {
         output.WriteRawTag(10);
+        output.WriteString(Id);
+      }
+      if (Username.Length != 0) {
+        output.WriteRawTag(18);
         output.WriteString(Username);
       }
       if (Password.Length != 0) {
-        output.WriteRawTag(18);
+        output.WriteRawTag(26);
         output.WriteString(Password);
       }
       if (Email.Length != 0) {
-        output.WriteRawTag(26);
+        output.WriteRawTag(34);
         output.WriteString(Email);
       }
       if (Status.Length != 0) {
-        output.WriteRawTag(34);
+        output.WriteRawTag(42);
         output.WriteString(Status);
       }
       if (Role.Length != 0) {
-        output.WriteRawTag(42);
+        output.WriteRawTag(50);
         output.WriteString(Role);
       }
       if (_unknownFields != null) {
@@ -1131,6 +1155,9 @@ namespace PetShop.GRPC {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
+      if (Id.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Id);
+      }
       if (Username.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Username);
       }
@@ -1157,6 +1184,9 @@ namespace PetShop.GRPC {
     public void MergeFrom(UpdateUserRequest other) {
       if (other == null) {
         return;
+      }
+      if (other.Id.Length != 0) {
+        Id = other.Id;
       }
       if (other.Username.Length != 0) {
         Username = other.Username;
@@ -1189,22 +1219,26 @@ namespace PetShop.GRPC {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            Username = input.ReadString();
+            Id = input.ReadString();
             break;
           }
           case 18: {
-            Password = input.ReadString();
+            Username = input.ReadString();
             break;
           }
           case 26: {
-            Email = input.ReadString();
+            Password = input.ReadString();
             break;
           }
           case 34: {
-            Status = input.ReadString();
+            Email = input.ReadString();
             break;
           }
           case 42: {
+            Status = input.ReadString();
+            break;
+          }
+          case 50: {
             Role = input.ReadString();
             break;
           }
@@ -1224,22 +1258,26 @@ namespace PetShop.GRPC {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            Username = input.ReadString();
+            Id = input.ReadString();
             break;
           }
           case 18: {
-            Password = input.ReadString();
+            Username = input.ReadString();
             break;
           }
           case 26: {
-            Email = input.ReadString();
+            Password = input.ReadString();
             break;
           }
           case 34: {
-            Status = input.ReadString();
+            Email = input.ReadString();
             break;
           }
           case 42: {
+            Status = input.ReadString();
+            break;
+          }
+          case 50: {
             Role = input.ReadString();
             break;
           }
@@ -1475,6 +1513,7 @@ namespace PetShop.GRPC {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public UserResponse(UserResponse other) : this() {
+      id_ = other.id_;
       username_ = other.username_;
       password_ = other.password_;
       email_ = other.email_;
@@ -1489,8 +1528,20 @@ namespace PetShop.GRPC {
       return new UserResponse(this);
     }
 
+    /// <summary>Field number for the "id" field.</summary>
+    public const int IdFieldNumber = 1;
+    private string id_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Id {
+      get { return id_; }
+      set {
+        id_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     /// <summary>Field number for the "username" field.</summary>
-    public const int UsernameFieldNumber = 1;
+    public const int UsernameFieldNumber = 2;
     private string username_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1502,7 +1553,7 @@ namespace PetShop.GRPC {
     }
 
     /// <summary>Field number for the "password" field.</summary>
-    public const int PasswordFieldNumber = 2;
+    public const int PasswordFieldNumber = 3;
     private string password_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1514,7 +1565,7 @@ namespace PetShop.GRPC {
     }
 
     /// <summary>Field number for the "email" field.</summary>
-    public const int EmailFieldNumber = 3;
+    public const int EmailFieldNumber = 4;
     private string email_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1526,7 +1577,7 @@ namespace PetShop.GRPC {
     }
 
     /// <summary>Field number for the "status" field.</summary>
-    public const int StatusFieldNumber = 4;
+    public const int StatusFieldNumber = 5;
     private string status_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1538,7 +1589,7 @@ namespace PetShop.GRPC {
     }
 
     /// <summary>Field number for the "role" field.</summary>
-    public const int RoleFieldNumber = 5;
+    public const int RoleFieldNumber = 6;
     private string role_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1564,6 +1615,7 @@ namespace PetShop.GRPC {
       if (ReferenceEquals(other, this)) {
         return true;
       }
+      if (Id != other.Id) return false;
       if (Username != other.Username) return false;
       if (Password != other.Password) return false;
       if (Email != other.Email) return false;
@@ -1576,6 +1628,7 @@ namespace PetShop.GRPC {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
+      if (Id.Length != 0) hash ^= Id.GetHashCode();
       if (Username.Length != 0) hash ^= Username.GetHashCode();
       if (Password.Length != 0) hash ^= Password.GetHashCode();
       if (Email.Length != 0) hash ^= Email.GetHashCode();
@@ -1599,24 +1652,28 @@ namespace PetShop.GRPC {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (Username.Length != 0) {
+      if (Id.Length != 0) {
         output.WriteRawTag(10);
+        output.WriteString(Id);
+      }
+      if (Username.Length != 0) {
+        output.WriteRawTag(18);
         output.WriteString(Username);
       }
       if (Password.Length != 0) {
-        output.WriteRawTag(18);
+        output.WriteRawTag(26);
         output.WriteString(Password);
       }
       if (Email.Length != 0) {
-        output.WriteRawTag(26);
+        output.WriteRawTag(34);
         output.WriteString(Email);
       }
       if (Status.Length != 0) {
-        output.WriteRawTag(34);
+        output.WriteRawTag(42);
         output.WriteString(Status);
       }
       if (Role.Length != 0) {
-        output.WriteRawTag(42);
+        output.WriteRawTag(50);
         output.WriteString(Role);
       }
       if (_unknownFields != null) {
@@ -1629,24 +1686,28 @@ namespace PetShop.GRPC {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Username.Length != 0) {
+      if (Id.Length != 0) {
         output.WriteRawTag(10);
+        output.WriteString(Id);
+      }
+      if (Username.Length != 0) {
+        output.WriteRawTag(18);
         output.WriteString(Username);
       }
       if (Password.Length != 0) {
-        output.WriteRawTag(18);
+        output.WriteRawTag(26);
         output.WriteString(Password);
       }
       if (Email.Length != 0) {
-        output.WriteRawTag(26);
+        output.WriteRawTag(34);
         output.WriteString(Email);
       }
       if (Status.Length != 0) {
-        output.WriteRawTag(34);
+        output.WriteRawTag(42);
         output.WriteString(Status);
       }
       if (Role.Length != 0) {
-        output.WriteRawTag(42);
+        output.WriteRawTag(50);
         output.WriteString(Role);
       }
       if (_unknownFields != null) {
@@ -1659,6 +1720,9 @@ namespace PetShop.GRPC {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
+      if (Id.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Id);
+      }
       if (Username.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Username);
       }
@@ -1685,6 +1749,9 @@ namespace PetShop.GRPC {
     public void MergeFrom(UserResponse other) {
       if (other == null) {
         return;
+      }
+      if (other.Id.Length != 0) {
+        Id = other.Id;
       }
       if (other.Username.Length != 0) {
         Username = other.Username;
@@ -1717,22 +1784,26 @@ namespace PetShop.GRPC {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            Username = input.ReadString();
+            Id = input.ReadString();
             break;
           }
           case 18: {
-            Password = input.ReadString();
+            Username = input.ReadString();
             break;
           }
           case 26: {
-            Email = input.ReadString();
+            Password = input.ReadString();
             break;
           }
           case 34: {
-            Status = input.ReadString();
+            Email = input.ReadString();
             break;
           }
           case 42: {
+            Status = input.ReadString();
+            break;
+          }
+          case 50: {
             Role = input.ReadString();
             break;
           }
@@ -1752,22 +1823,26 @@ namespace PetShop.GRPC {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            Username = input.ReadString();
+            Id = input.ReadString();
             break;
           }
           case 18: {
-            Password = input.ReadString();
+            Username = input.ReadString();
             break;
           }
           case 26: {
-            Email = input.ReadString();
+            Password = input.ReadString();
             break;
           }
           case 34: {
-            Status = input.ReadString();
+            Email = input.ReadString();
             break;
           }
           case 42: {
+            Status = input.ReadString();
+            break;
+          }
+          case 50: {
             Role = input.ReadString();
             break;
           }
