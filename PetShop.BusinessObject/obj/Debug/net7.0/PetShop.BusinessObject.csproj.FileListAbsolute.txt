@@ -1,0 +1,14 @@
+D:\FPT\SEM8\PRN231\Assignment\PetShop.GRPC\PetShop.BusinessObject\bin\Debug\net7.0\PetShop.BusinessObject.deps.json
+D:\FPT\SEM8\PRN231\Assignment\PetShop.GRPC\PetShop.BusinessObject\bin\Debug\net7.0\PetShop.BusinessObject.runtimeconfig.json
+D:\FPT\SEM8\PRN231\Assignment\PetShop.GRPC\PetShop.BusinessObject\bin\Debug\net7.0\PetShop.BusinessObject.dll
+D:\FPT\SEM8\PRN231\Assignment\PetShop.GRPC\PetShop.BusinessObject\bin\Debug\net7.0\PetShop.BusinessObject.pdb
+D:\FPT\SEM8\PRN231\Assignment\PetShop.GRPC\PetShop.BusinessObject\obj\Debug\net7.0\PetShop.BusinessObject.csproj.AssemblyReference.cache
+D:\FPT\SEM8\PRN231\Assignment\PetShop.GRPC\PetShop.BusinessObject\obj\Debug\net7.0\PetShop.BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\SEM8\PRN231\Assignment\PetShop.GRPC\PetShop.BusinessObject\obj\Debug\net7.0\PetShop.BusinessObject.AssemblyInfoInputs.cache
+D:\FPT\SEM8\PRN231\Assignment\PetShop.GRPC\PetShop.BusinessObject\obj\Debug\net7.0\PetShop.BusinessObject.AssemblyInfo.cs
+D:\FPT\SEM8\PRN231\Assignment\PetShop.GRPC\PetShop.BusinessObject\obj\Debug\net7.0\PetShop.BusinessObject.csproj.CoreCompileInputs.cache
+D:\FPT\SEM8\PRN231\Assignment\PetShop.GRPC\PetShop.BusinessObject\obj\Debug\net7.0\PetShop.BusinessObject.dll
+D:\FPT\SEM8\PRN231\Assignment\PetShop.GRPC\PetShop.BusinessObject\obj\Debug\net7.0\refint\PetShop.BusinessObject.dll
+D:\FPT\SEM8\PRN231\Assignment\PetShop.GRPC\PetShop.BusinessObject\obj\Debug\net7.0\PetShop.BusinessObject.pdb
+D:\FPT\SEM8\PRN231\Assignment\PetShop.GRPC\PetShop.BusinessObject\obj\Debug\net7.0\PetShop.BusinessObject.genruntimeconfig.cache
+D:\FPT\SEM8\PRN231\Assignment\PetShop.GRPC\PetShop.BusinessObject\obj\Debug\net7.0\ref\PetShop.BusinessObject.dll

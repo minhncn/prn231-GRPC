@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "XUvUlkYg2JWoFMDEl5NGBREefl6OlKtb8rwC8rGfe2A=",
+  "Source": "PetShop.GRPC",
+  "BasePath": "_content/PetShop.GRPC",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
