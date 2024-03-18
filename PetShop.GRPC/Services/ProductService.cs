@@ -45,7 +45,7 @@ namespace PetShop.GRPC.Services
                 throw new RpcException(new Status(StatusCode.InvalidArgument, "Error request"));
             }
             var response = new GetAllProductsResponse();
-            var products = _productRepository.Get().Where(x => x.Status == ProductStatus.Available.ToString()).ToList();
+            var products = _productRepository.Get().ToList();
             foreach (var product in products)
             {
                 response.Product.Add(new ProductResponse 
