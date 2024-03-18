@@ -54,6 +54,7 @@ namespace PetShop.GRPC.Services
                     Name = product.Name,
                     Price= (int)product.Price,
                     Status = product.Status,
+                    CategoryId = product.CategoryId.ToString()
                 });
             }
             return Task.FromResult(response);
